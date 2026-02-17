@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700&display=swap');
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(
+        to right,
+        #4751E6,
+        #A6A6A6,
+        #737373,
+        #595959,
+        #262626,
+        #0D0D0D
+    );
+    display: flex;
+    justify-content: center;
+    padding: 40px 15px;
+}
+
+main  {
+    width: 85%;
+    max-width: 900px;
+    background: #f5f5f7b8;
+    padding: 50px;      /* espaço interno */
+    border-radius:  15px;
+    margin: 60px auto;  /* centraliza */
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block; 
+    margin: 20px auto;
+}
+
+h1,h2,h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    color:#000000;
+}
+
+footer {
+    padding: 20px 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; /* esquerda x direita */
+    align-items: center;            /* alinhamento vertical */
+}
+
+.icones {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.icones img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+.copyright {
+    margin: 0;
+    line-height: 1;
+    text-align: right;
+}
+
+hr {
+    border: 0;               /* Remove a borda padrão que tem sombra */
+    height: 1px;            /* Define a espessura da linha */
+    background-color: black; /* Define a cor preta */
+} 
